@@ -14,7 +14,9 @@ Put your real apps — with live notification badges — your Dock, media keys a
 [![Free](https://img.shields.io/badge/Price-Free%20forever-2EA44F?style=for-the-badge)](#-why-medotouchpar)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
-[**Download**](https://github.com/Mo3athAmr/MedoTouchPar/releases/latest) ·
+[![Download for Intel](https://img.shields.io/badge/Download-Intel%20.dmg-0071C5?style=for-the-badge&logo=intel&logoColor=white)](https://github.com/Mo3athAmr/MedoTouchPar/releases/latest/download/MedoTouchPar-1.0-Intel.dmg)
+[![Download for Apple Silicon](https://img.shields.io/badge/Download-Apple%20Silicon%20.dmg-111111?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/Mo3athAmr/MedoTouchPar/releases/latest/download/MedoTouchPar-1.0-AppleSilicon.dmg)
+
 [Features](#-features) ·
 [Screenshots](#-screenshots) ·
 [Install](#-install) ·
@@ -163,11 +165,18 @@ Every item, icon size, spacing, color, dot, badge and system button is yours to 
 
 ## 📦 Install
 
-### Option 1 — Download (easiest)
+### Option 1 — Download the DMG (easiest)
 
-1. Download **MedoTouchPar.zip** from the [latest release](https://github.com/Mo3athAmr/MedoTouchPar/releases/latest).
-2. Unzip it and drag **MedoTouchPar.app** to **Applications**.
-3. The first time, **right-click → Open** (the app is free and not notarized by Apple), then confirm.
+| Your Mac | Download |
+|---|---|
+| **Intel** — MacBook Pro 2016–2020 (e.g. 16″ 2019) | [⬇️ MedoTouchPar-1.0-Intel.dmg](https://github.com/Mo3athAmr/MedoTouchPar/releases/latest/download/MedoTouchPar-1.0-Intel.dmg) |
+| **Apple Silicon** — 13″ MacBook Pro M1 / M2 | [⬇️ MedoTouchPar-1.0-AppleSilicon.dmg](https://github.com/Mo3athAmr/MedoTouchPar/releases/latest/download/MedoTouchPar-1.0-AppleSilicon.dmg) |
+
+<sub>Not sure which one? Apple menu  → **About This Mac**: *Chip: Apple M…* means Apple Silicon, *Processor: Intel* means Intel.</sub>
+
+1. Open the DMG and drag **MedoTouchPar** onto **Applications**.
+2. The first time, **right-click the app → Open** (it's free and not notarized by Apple), then confirm.
+3. That's it — it starts with your Mac from now on.
 
 > [!TIP]
 > If macOS still refuses to open it, run this once in Terminal:
@@ -179,6 +188,7 @@ Every item, icon size, spacing, color, dot, badge and system button is yours to 
 git clone https://github.com/Mo3athAmr/MedoTouchPar.git
 cd MedoTouchPar
 ./build.sh            # builds a universal app, installs it to /Applications and starts it
+./build.sh --release  # builds the Intel and Apple Silicon DMGs into build/release
 ```
 
 Requires Xcode (or the Command Line Tools) with Swift 5.9 or later. `./build.sh --no-install` only builds into `./build`.
@@ -327,7 +337,7 @@ Regenerate the screenshots in this README with
 - 🌍 **عربي وإنجليزي** مع واجهة من اليمين لليسار.
 - ⚡ **خفيف**: يعمل في الخلفية بحوالي 1% من المعالج، ويبدأ تلقائيًا مع تشغيل الجهاز.
 
-**التثبيت:** حمّل **MedoTouchPar.zip** من [آخر إصدار](https://github.com/Mo3athAmr/MedoTouchPar/releases/latest)، انقله إلى مجلد التطبيقات، ثم كليك يمين ← فتح في أول مرة. أو من المصدر:
+**التثبيت:** حمّل ملف DMG المناسب لجهازك — [نسخة Intel](https://github.com/Mo3athAmr/MedoTouchPar/releases/latest/download/MedoTouchPar-1.0-Intel.dmg) أو [نسخة Apple Silicon](https://github.com/Mo3athAmr/MedoTouchPar/releases/latest/download/MedoTouchPar-1.0-AppleSilicon.dmg) — افتحه واسحب التطبيق إلى مجلد التطبيقات، ثم كليك يمين ← فتح في أول مرة. أو من المصدر:
 
 </div>
 
